@@ -19,6 +19,7 @@
     font-size: 4rem;
     line-height: 1.1;
     font-weight: 500;
+    cursor: default;
 
     p {
       width: 1000px;
@@ -32,6 +33,7 @@
 
   .mask {
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     color: var(--color-invert);
@@ -40,6 +42,5 @@
     mask-image: url(/mask.svg);
     mask-size: 2.5rem;
     mask-repeat: no-repeat;
-    // pointer-events: "none";
   }
 }

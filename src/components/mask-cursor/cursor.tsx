@@ -14,7 +14,7 @@ function Cursor() {
         WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
         WebkitMaskSize: `${size}px`,
       }}
-      transition={{ type: "tween", ease: "backOut" }}
+      transition={{ ease: "backOut", type: "tween", duration: 0.5 }}
       className={`${styles.mask}`}>
       <p
         onMouseOver={() => setIsHovered(true)}
